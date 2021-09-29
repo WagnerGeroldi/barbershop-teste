@@ -1,0 +1,325 @@
+:root {
+    --color-primary: #6b5840;
+    --color-secondary: #a38f78;
+    --color-light: #e0e0df;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.container {
+    width: min(1170px, 90%);
+    margin: 0 auto;
+}
+
+/* HOME */
+
+.home {
+    background-image: url(./assets/bg-home.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    padding: 0 30px;
+}
+
+.menu a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+/******************* banner section home*******************/
+
+.banner {
+    color: #fff;
+    text-align: center;
+}
+
+.banner span {
+    display: block;
+}
+
+.slogan-one {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.3rem;
+}
+
+.banner h1 {
+    font-size: 7rem;
+    margin: 25px 0;
+}
+
+/******************* secton about*******************/
+
+.about {
+    background: var(--color-primary);
+}
+
+.about .container {
+    display: flex;
+}
+
+.timing {
+    width: 33%;
+    background-image: url(./assets/brush-big.jpg);
+    padding: 20px;
+    margin-top: -10vh;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.timing img {
+    width: 50px;
+}
+
+.timing h3 {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--color-primary);
+    width: fit-content;
+    margin: auto;
+}
+
+.text {
+    margin: 15px 0;
+}
+
+.text:after {
+    content: '♠';
+    display: block;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.text:last-of-type:after {
+    content: '|';
+}
+
+.overlay span {
+    color: white;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.text h4 {
+    color: gray;
+    font-weight: 300;
+}
+
+.text span {
+    color: #fff;
+}
+
+.experience {
+    width: 66%;
+    color: white;
+    margin-left: 7%;
+    margin-top: 8vh;
+}
+
+.text-experience {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-experience p{
+    margin-bottom: 20px;
+}
+.experience h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.experience h2:after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: var(--color-secondary);
+    margin: 15px 0;
+}
+
+/******************* secton services*******************/
+
+.services {
+    height: 100vh;
+    background: var(--color-secondary);
+}
+
+.title {
+    text-align: center;
+    padding: 5vh;
+}
+
+.title h2 {
+    font-weight: 400;
+    font-size: 60px;
+    color: var(--color-primary);
+}
+
+.container-services {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.card {
+    border: 2px solid var(--color-primary);
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.card p, h5 {
+    margin-top: 15px;
+}
+/******************* section appointment*******************/
+
+.appointment {
+    background: var(--color-primary);
+    background-image: url(assets/chair-ic.png);
+    background-repeat: no-repeat;
+    background-position: right  bottom;
+    background-size: 23%;
+}
+
+.appointment.title {
+    padding: 5vh;
+}
+
+.appointment .title h2 {
+    font-weight: 400;
+    font-size: 60px;
+    color: var(--color-light);
+    padding: 60px 0;
+}
+
+.appointment form {
+    margin-top: 80px;
+}
+
+label {
+    display: block;
+    color: var(--color-light);
+}
+
+.personal-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+input, select, textarea {
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: #ffffff 0 0 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 20vh;
+}
+
+.appointment button {
+    background: var(--color-secondary);
+    padding: 10px 25px;
+    margin: 15px 0 30px 0;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: bold;
+    border: none;
+}
+
+
+.appointment button:hover {
+    filter: opacity(0.8);
+    transition: 0.5s;
+    color: var(--color-light);
+}
+
+/******************* section gallery*******************/
+
+.gallery {
+    background: var(--color-secondary);
+}
+
+.gallery-wrapper {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 800px;
+    justify-content: center;
+}
+
+.gallery-wrapper div {
+    border: 10px solid var(--color-primary);
+    margin: 6px;
+    width: 33%;
+}
+
+.gallery-wrapper div img {
+    width: 100%;
+    height: 100%;
+}
+
+/******************* section location*******************/
+.location {
+    padding: 100px 0;
+    background-image: url(assets/bg-location.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.head {
+    background: #191919;
+    padding: 30px;
+    width: 100%;
+}
