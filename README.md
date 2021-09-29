@@ -1,6 +1,6 @@
-#SITE BARBERSHOP
+# SITE BARBERSHOP
 
-###SITE SIMPLES DESENVOLVIDO APENAS COM HTML E CSS
+### SITE SIMPLES DESENVOLVIDO APENAS COM HTML E CSS
 
 Para acessar o site clique no link abaixo através de um computador!!! Este projeto não está ajustado para telas pequenas!!!
 
