@@ -290,7 +290,7 @@ textarea {
 }
 
 .gallery-wrapper {
-    margin: 30px auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -345,6 +345,18 @@ textarea {
 }
 .text-info span:last-child {
     color: rgb(255, 255, 255);
+}
+
+.map, iframe {
+    width: 100%;
+}
+
+footer {
+    background: #191919;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-size: 1.2rem;
 }
 
 
