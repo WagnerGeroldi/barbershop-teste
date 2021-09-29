@@ -27,6 +27,7 @@ html {
 .home {
     background-image: url(./assets/bg-home.jpg);
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
 }
 
